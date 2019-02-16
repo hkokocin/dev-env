@@ -31,3 +31,12 @@ alias gmr='git merge release'
 alias dc='docker-compose'
 alias bt='./gradlew testReleaseUnitTest'
 alias grd='git pull --rebase origin develop'
+alias py=python3
+
+alias app='cd ~/repositories/fluege-android'
+alias app-review='cd ~/repositories/fluege-review'
+
+c(){
+    cd $1
+    ls
+}
