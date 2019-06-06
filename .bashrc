@@ -33,8 +33,6 @@ alias bt='./gradlew testReleaseUnitTest'
 alias grd='git pull --rebase origin develop'
 alias py=python3
 
-alias review='cd ~/repositories/fluege-review'
-
 c(){
     cd $1
     ls
@@ -42,3 +40,11 @@ c(){
 
 alias work='~/dev-env/scripts/work.sh'
 alias home='~/dev-env/scripts/home.sh'
+
+alias android='cd /Users/hkokocin/repositories/apps/android'
+alias mpp='cd /Users/hkokocin/repositories/apps/app-commons'
+alias iot='cd /Users/hkokocin/repositories/tools/iot'
+alias fire='cd /Users/hkokocin/repositories/tools/firebase'
+alias review='cd /Users/hkokocin/repositories/apps/android-review'
+alias legacy='cd /Users/hkokocin/repositories/apps/android-legacy'
+alias gmrd='git merge origin develop'
